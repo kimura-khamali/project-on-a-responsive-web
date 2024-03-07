@@ -23,7 +23,6 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  /* background-color:; */
 }
 
 .nav li {
@@ -45,12 +44,11 @@ nav ul {
   background-image: url(https://tinyurl.com/yxf6572h);
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-size: auto;*/
 }
 
 .count {
   text-align: center;
-  /*border: 7px solid red;*/
+
   width: 300px;
   height: 200px;
   padding-top: 100px;
@@ -58,7 +56,7 @@ nav ul {
 
 .button {
   padding: 20px;
-  /* align-item: center; */
+
   margin: auto;
 }
 
@@ -77,29 +75,16 @@ nav ul {
   font-size: 50px;
 }
 
-/* .paper_wrapper {
-background-color: ;
-} */
-
 .specific {
   display: grid;
   grid-template-rows: table-row;
   grid-template-columns: repeat(4, 1fr);
-  /*grid-gap: 30px;*/
 }
 
 .video {
   display: grid;
   grid-template-rows: table-row;
   grid-template-columns: repeat(3, 1fr);
-}
-
-.make1 {
-  text-align: center;
-  border: 7px solid red;
-  width: 300px;
-  height: 80px;
-  padding-top: 100px;
 }
 
 .reiaad {
@@ -147,16 +132,10 @@ background-color: ;
   background-color: cornflowerblue;
 }
 
-/* .form {
-  display: grid;
-  grid-template-rows: table-row;
-  grid-template-columns: repeat(2, 1fr);
-} */
-
 .form1 {
   display: grid;
   grid-template-rows: table-row;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 0px;
 }
 
@@ -179,13 +158,6 @@ background-color: ;
   margin: 0 auto;
 }
 
-/* .l3 {
-    display: grid;
-    grid-template-rows: table-row;
-    grid-template-columns: repeat(2, 1fr);
-}
- */
-
 .testimony {
   display: grid;
   grid-template-rows: table-row;
@@ -198,7 +170,7 @@ background-color: ;
   grid-template-rows: table-row;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
-  /* filter: blur(1px); */
+
   filter: contrast(30px);
 }
 
@@ -249,7 +221,7 @@ button {
 
 .p {
   text-align: center;
-  /*border: 7px solid red;*/
+
   width: 300px;
   height: 80px;
   padding-top: 100px;
@@ -302,7 +274,7 @@ button {
 
 .container {
   padding: 2px 30px;
-  /* border: solid 1px; */
+
   width: 50%;
   border-width: 4px 4px;
   border-radius: 30%;
@@ -316,41 +288,42 @@ ul li {
   color: #000;
 }
 
+body {
+  background-color: rgb(128, 0, 107);
+}
 
-/* @media  screen (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-} */
-
-
-body{
-   
-    background-color: rgb(128, 0, 107);
+@media screen and (min-width: 577px) and (max-width: 996px) {
+  body {
+    background-color: red;
   }
-  
-  @media screen and (min-width:577px) and (max-width: 996px) {
-    body{
-      background-color: red;
-    }
-  }
-  
-  @media screen and (min-width: 997px) {
-    body {
-      background-color: white;
-    }
-  }
+}
 
-  @media screen and (min-width: 501px) and (max-width: 799px) {
-    .testimony {
-      grid-template-columns:repeat(1,1fr) ;
-    }
+@media screen and (min-width: 997px) {
+  body {
+    background-color: white;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 799px) {
+  .testimony {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 @media screen and (min-width: 501px) {
-    .testimony {
-      grid-template-columns:repeat(3,1fr) ;
-    }
+  .testimony {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
+@media screen and (min-width: 501px) and (max-width: 799px) {
+  .testimony {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 
+@media screen and (min-width: 501px) {
+  .div1 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
